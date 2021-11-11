@@ -964,7 +964,7 @@
   dependencies:
     react-native-actionsheet "^2.4.2"
 
-"@modules/chat@file:./modules/chat/":
+"@modules/chat@file:./modules/chat":
   version "1.0.0"
   dependencies:
     pubnub "^4.29.11"
@@ -983,9 +983,6 @@
     react-native-get-random-values "^1.6.0"
     react-native-keyboard-aware-scroll-view "^0.9.3"
     uuid "^8.3.2"
-
-"@modules/splash@file:./modules/splash":
-  version "1.0.0"
 
 "@modules/user-profile@file:./modules/user-profile":
   version "1.0.0"
