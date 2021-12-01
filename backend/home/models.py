@@ -34,3 +34,8 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+    test_field = models.CharField(
+        max_length=256,
+        null=True,
+        blank=True,
+    )
